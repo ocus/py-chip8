@@ -9,19 +9,18 @@ setup(
     description=u"CHIP-8",
     long_description="",
     keywords='',
-    author=u"Matthie Honel",
+    author=u"Matthieu Honel",
     author_email='matthieu.honel@free.fr',
-    url='https://bitbucket.org/adnow/adnow_python_lib',
+    url='',
     license='MIT',
     packages=find_packages(exclude=['tests']),
     include_package_data=True,
     zip_safe=False,
     install_requires=[
     ],
-    test_suite='tests.chip8',
+    test_suite='tests.chip8_test_suite',
     tests_require=[
         'mock',
-        'timeout-decorator'
     ],
     classifiers=[
         "Development Status :: 3 - Alpha",

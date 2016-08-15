@@ -1,7 +1,7 @@
 import mmap
 import os
 
-from chip8.Chip8 import Chip8
+from chip8.emulator.Chip8 import Chip8
 
 
 class Chip8Utils(object):

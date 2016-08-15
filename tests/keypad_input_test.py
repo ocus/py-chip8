@@ -1,8 +1,8 @@
 import os
 import unittest
 
-from chip8.Chip8Utils import Chip8Utils
-from chip8.Input import Input
+from chip8.emulator.Chip8Utils import Chip8Utils
+from chip8.emulator.Input import Input
 
 
 class KeypadInputTest(unittest.TestCase):

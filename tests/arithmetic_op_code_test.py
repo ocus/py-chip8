@@ -1,6 +1,6 @@
 import unittest
 
-from chip8.Chip8 import Chip8
+from chip8.emulator.Chip8 import Chip8
 
 
 class ArithmeticOpCodeTest(unittest.TestCase):

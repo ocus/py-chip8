@@ -2,8 +2,8 @@ import array
 import random
 import time
 
-from chip8.Audio import player as audio_player
-from chip8.Input import Input
+from chip8.emulator.Audio import player as audio_player
+from chip8.emulator.Input import Input
 
 
 # : main

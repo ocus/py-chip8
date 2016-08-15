@@ -11,7 +11,7 @@ setup(
     keywords='',
     author=u"Matthieu Honel",
     author_email='matthieu.honel@free.fr',
-    url='',
+    url='https://github.com/ocus/py-chip8',
     license='MIT',
     packages=find_packages(exclude=['tests']),
     include_package_data=True,

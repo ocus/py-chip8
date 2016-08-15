@@ -1,7 +1,8 @@
 from setuptools import find_packages, setup
-
+from chip8.setup_commands import commands as setup_commands
 # https://github.com/secondsun/chip8
 # https://johnearnest.github.io/Octo/
+
 
 setup(
     name='chip8',
@@ -16,7 +17,9 @@ setup(
     packages=find_packages(exclude=['tests']),
     include_package_data=True,
     zip_safe=False,
+    cmdclass=setup_commands,
     install_requires=[
+        # 'pillow'
     ],
     test_suite='tests.chip8_test_suite',
     tests_require=[
